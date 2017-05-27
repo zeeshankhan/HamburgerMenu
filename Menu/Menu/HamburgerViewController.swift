@@ -83,9 +83,7 @@ extension HamburgerViewController: UITableViewDataSource, UITableViewDelegate {
         
         let row = rows[indexPath.row]
         
-        if case .home = row {
-        }
-        else {
+        if row != .home {
             let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController")
             let navCont = UINavigationController(rootViewController: vc!)
             present(navCont, animated: true, completion: nil)

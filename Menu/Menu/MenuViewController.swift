@@ -18,6 +18,7 @@ class MenuViewController: UIViewController {
     
     let maxBlackViewAlpha: CGFloat = 0.5
     let animationDuration: TimeInterval = 0.3
+    var isLeftToRight = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,18 @@ class MenuViewController: UIViewController {
         
         viewBlack.alpha = 0
         viewBlack.isHidden = true
+        
+        let language = NSLocale.preferredLanguages.first!
+        let direction = NSLocale.characterDirection(forLanguage: language)
+        
+        if direction == .leftToRight {
+            gestureScreenEdgePan.edges = .left
+            isLeftToRight = true
+        }
+        else {
+            gestureScreenEdgePan.edges = .right
+            isLeftToRight = false
+        }
     }
     
     @IBAction func gestureScreenEdgePan(_ sender: UIScreenEdgePanGestureRecognizer) {
@@ -37,20 +50,28 @@ class MenuViewController: UIViewController {
             // if the user has just started dragging, make sure view for dimming effect is hidden well
             viewBlack.isHidden = false
             viewBlack.alpha = 0
+            
         } else if (sender.state == UIGestureRecognizerState.changed) {
             
             // retrieve the amount viewMenu has been dragged
-            let translationX = sender.translation(in: sender.view).x
+            var translationX = sender.translation(in: sender.view).x
+            
+            if !isLeftToRight {
+                translationX = -translationX
+            }
+            
             if -constraintMenuWidth.constant + translationX > 0 {
                 
                 // viewMenu fully dragged out
                 constraintMenuLeft.constant = 0
                 viewBlack.alpha = maxBlackViewAlpha
+                
             } else if translationX < 0 {
                 
                 // viewMenu fully dragged in
                 constraintMenuLeft.constant = -constraintMenuWidth.constant
                 viewBlack.alpha = 0
+                
             } else {
                 
                 // viewMenu is being dragged somewhere between min and max amount
@@ -80,17 +101,24 @@ class MenuViewController: UIViewController {
         } else if sender.state == UIGestureRecognizerState.changed {
             
             // retrieve the amount viewMenu has been dragged
-            let translationX = sender.translation(in: sender.view).x
+            var translationX = sender.translation(in: sender.view).x
+            
+            if !isLeftToRight {
+                translationX = -translationX
+            }
+            
             if translationX > 0 {
                 
                 // viewMenu fully dragged out
                 constraintMenuLeft.constant = 0
                 viewBlack.alpha = maxBlackViewAlpha
+                
             } else if translationX < -constraintMenuWidth.constant {
                 
                 // viewMenu fully dragged in
                 constraintMenuLeft.constant = -constraintMenuWidth.constant
                 viewBlack.alpha = 0
+                
             } else {
                 
                 // it's being dragged somewhere between min and max amount
