@@ -11,33 +11,12 @@
 		B33E89AB1ED67A3B00E5A503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33E89A91ED67A3B00E5A503 /* Main.storyboard */; };
 		B33E89AD1ED67A3B00E5A503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33E89AC1ED67A3B00E5A503 /* Assets.xcassets */; };
 		B33E89B01ED67A3B00E5A503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33E89AE1ED67A3B00E5A503 /* LaunchScreen.storyboard */; };
-		B33E89BB1ED67A3B00E5A503 /* MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89BA1ED67A3B00E5A503 /* MenuTests.swift */; };
-		B33E89C61ED67A3B00E5A503 /* MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89C51ED67A3B00E5A503 /* MenuUITests.swift */; };
 		B33E89D41ED67AF300E5A503 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89D31ED67AF300E5A503 /* HamburgerViewController.swift */; };
 		B33E89D61ED67B8400E5A503 /* HamburgerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89D51ED67B8400E5A503 /* HamburgerLayer.swift */; };
-		B33E89D71ED67B8400E5A503 /* HamburgerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89D51ED67B8400E5A503 /* HamburgerLayer.swift */; };
 		B33E89D91ED67BA600E5A503 /* HamburgerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89D81ED67BA600E5A503 /* HamburgerCell.swift */; };
 		B33E89E31ED7D83500E5A503 /* HamburgerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89E21ED7D83500E5A503 /* HamburgerViewModel.swift */; };
 		B33E8A101ED869E500E5A503 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E8A0F1ED869E500E5A503 /* MenuViewController.swift */; };
-		B33E8A121ED86A2500E5A503 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E8A111ED86A2500E5A503 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B33E89B71ED67A3B00E5A503 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B33E899A1ED67A3B00E5A503 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B33E89A11ED67A3B00E5A503;
-			remoteInfo = Menu;
-		};
-		B33E89C21ED67A3B00E5A503 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B33E899A1ED67A3B00E5A503 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B33E89A11ED67A3B00E5A503;
-			remoteInfo = Menu;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B33E89A21ED67A3B00E5A503 /* Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,36 +25,15 @@
 		B33E89AC1ED67A3B00E5A503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B33E89AF1ED67A3B00E5A503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33E89B11ED67A3B00E5A503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B33E89B61ED67A3B00E5A503 /* MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B33E89BA1ED67A3B00E5A503 /* MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTests.swift; sourceTree = "<group>"; };
-		B33E89BC1ED67A3B00E5A503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B33E89C11ED67A3B00E5A503 /* MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B33E89C51ED67A3B00E5A503 /* MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuUITests.swift; sourceTree = "<group>"; };
-		B33E89C71ED67A3B00E5A503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B33E89D31ED67AF300E5A503 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
 		B33E89D51ED67B8400E5A503 /* HamburgerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerLayer.swift; sourceTree = "<group>"; };
 		B33E89D81ED67BA600E5A503 /* HamburgerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerCell.swift; sourceTree = "<group>"; };
 		B33E89E21ED7D83500E5A503 /* HamburgerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewModel.swift; sourceTree = "<group>"; };
 		B33E8A0F1ED869E500E5A503 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		B33E8A111ED86A2500E5A503 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B33E899F1ED67A3B00E5A503 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B33E89B31ED67A3B00E5A503 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B33E89BE1ED67A3B00E5A503 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				B33E89A41ED67A3B00E5A503 /* Menu */,
-				B33E89B91ED67A3B00E5A503 /* MenuTests */,
-				B33E89C41ED67A3B00E5A503 /* MenuUITests */,
 				B33E89A31ED67A3B00E5A503 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				B33E89A21ED67A3B00E5A503 /* Menu.app */,
-				B33E89B61ED67A3B00E5A503 /* MenuTests.xctest */,
-				B33E89C11ED67A3B00E5A503 /* MenuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,36 +63,17 @@
 			isa = PBXGroup;
 			children = (
 				B33E89A51ED67A3B00E5A503 /* AppDelegate.swift */,
+				B33E8A0F1ED869E500E5A503 /* MenuViewController.swift */,
 				B33E89D31ED67AF300E5A503 /* HamburgerViewController.swift */,
 				B33E89D81ED67BA600E5A503 /* HamburgerCell.swift */,
 				B33E89D51ED67B8400E5A503 /* HamburgerLayer.swift */,
 				B33E89E21ED7D83500E5A503 /* HamburgerViewModel.swift */,
-				B33E8A0F1ED869E500E5A503 /* MenuViewController.swift */,
-				B33E8A111ED86A2500E5A503 /* HomeViewController.swift */,
 				B33E89A91ED67A3B00E5A503 /* Main.storyboard */,
 				B33E89AC1ED67A3B00E5A503 /* Assets.xcassets */,
 				B33E89AE1ED67A3B00E5A503 /* LaunchScreen.storyboard */,
 				B33E89B11ED67A3B00E5A503 /* Info.plist */,
 			);
 			path = Menu;
-			sourceTree = "<group>";
-		};
-		B33E89B91ED67A3B00E5A503 /* MenuTests */ = {
-			isa = PBXGroup;
-			children = (
-				B33E89BA1ED67A3B00E5A503 /* MenuTests.swift */,
-				B33E89BC1ED67A3B00E5A503 /* Info.plist */,
-			);
-			path = MenuTests;
-			sourceTree = "<group>";
-		};
-		B33E89C41ED67A3B00E5A503 /* MenuUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B33E89C51ED67A3B00E5A503 /* MenuUITests.swift */,
-				B33E89C71ED67A3B00E5A503 /* Info.plist */,
-			);
-			path = MenuUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,42 +96,6 @@
 			productReference = B33E89A21ED67A3B00E5A503 /* Menu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B33E89B51ED67A3B00E5A503 /* MenuTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B33E89CD1ED67A3B00E5A503 /* Build configuration list for PBXNativeTarget "MenuTests" */;
-			buildPhases = (
-				B33E89B21ED67A3B00E5A503 /* Sources */,
-				B33E89B31ED67A3B00E5A503 /* Frameworks */,
-				B33E89B41ED67A3B00E5A503 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B33E89B81ED67A3B00E5A503 /* PBXTargetDependency */,
-			);
-			name = MenuTests;
-			productName = MenuTests;
-			productReference = B33E89B61ED67A3B00E5A503 /* MenuTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B33E89C01ED67A3B00E5A503 /* MenuUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B33E89D01ED67A3B00E5A503 /* Build configuration list for PBXNativeTarget "MenuUITests" */;
-			buildPhases = (
-				B33E89BD1ED67A3B00E5A503 /* Sources */,
-				B33E89BE1ED67A3B00E5A503 /* Frameworks */,
-				B33E89BF1ED67A3B00E5A503 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B33E89C31ED67A3B00E5A503 /* PBXTargetDependency */,
-			);
-			name = MenuUITests;
-			productName = MenuUITests;
-			productReference = B33E89C11ED67A3B00E5A503 /* MenuUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,18 +110,6 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = D4S2X6D6DH;
 						ProvisioningStyle = Automatic;
-					};
-					B33E89B51ED67A3B00E5A503 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = D4S2X6D6DH;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B33E89A11ED67A3B00E5A503;
-					};
-					B33E89C01ED67A3B00E5A503 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = D4S2X6D6DH;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B33E89A11ED67A3B00E5A503;
 					};
 				};
 			};
@@ -240,8 +127,6 @@
 			projectRoot = "";
 			targets = (
 				B33E89A11ED67A3B00E5A503 /* Menu */,
-				B33E89B51ED67A3B00E5A503 /* MenuTests */,
-				B33E89C01ED67A3B00E5A503 /* MenuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,20 +142,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33E89B41ED67A3B00E5A503 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B33E89BF1ED67A3B00E5A503 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -283,42 +154,11 @@
 				B33E89D91ED67BA600E5A503 /* HamburgerCell.swift in Sources */,
 				B33E89D61ED67B8400E5A503 /* HamburgerLayer.swift in Sources */,
 				B33E89E31ED7D83500E5A503 /* HamburgerViewModel.swift in Sources */,
-				B33E8A121ED86A2500E5A503 /* HomeViewController.swift in Sources */,
 				B33E89A61ED67A3B00E5A503 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B33E89B21ED67A3B00E5A503 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B33E89BB1ED67A3B00E5A503 /* MenuTests.swift in Sources */,
-				B33E89D71ED67B8400E5A503 /* HamburgerLayer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B33E89BD1ED67A3B00E5A503 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B33E89C61ED67A3B00E5A503 /* MenuUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B33E89B81ED67A3B00E5A503 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B33E89A11ED67A3B00E5A503 /* Menu */;
-			targetProxy = B33E89B71ED67A3B00E5A503 /* PBXContainerItemProxy */;
-		};
-		B33E89C31ED67A3B00E5A503 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B33E89A11ED67A3B00E5A503 /* Menu */;
-			targetProxy = B33E89C21ED67A3B00E5A503 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B33E89A91ED67A3B00E5A503 /* Main.storyboard */ = {
@@ -459,64 +299,6 @@
 			};
 			name = Release;
 		};
-		B33E89CE1ED67A3B00E5A503 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = D4S2X6D6DH;
-				INFOPLIST_FILE = MenuTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zeeshan.MenuTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Menu.app/Menu";
-			};
-			name = Debug;
-		};
-		B33E89CF1ED67A3B00E5A503 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = D4S2X6D6DH;
-				INFOPLIST_FILE = MenuTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zeeshan.MenuTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Menu.app/Menu";
-			};
-			name = Release;
-		};
-		B33E89D11ED67A3B00E5A503 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = D4S2X6D6DH;
-				INFOPLIST_FILE = MenuUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zeeshan.MenuUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Menu;
-			};
-			name = Debug;
-		};
-		B33E89D21ED67A3B00E5A503 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = D4S2X6D6DH;
-				INFOPLIST_FILE = MenuUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zeeshan.MenuUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Menu;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,24 +316,6 @@
 			buildConfigurations = (
 				B33E89CB1ED67A3B00E5A503 /* Debug */,
 				B33E89CC1ED67A3B00E5A503 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B33E89CD1ED67A3B00E5A503 /* Build configuration list for PBXNativeTarget "MenuTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B33E89CE1ED67A3B00E5A503 /* Debug */,
-				B33E89CF1ED67A3B00E5A503 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B33E89D01ED67A3B00E5A503 /* Build configuration list for PBXNativeTarget "MenuUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B33E89D11ED67A3B00E5A503 /* Debug */,
-				B33E89D21ED67A3B00E5A503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
