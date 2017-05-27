@@ -77,7 +77,20 @@ extension HamburgerViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        guard let menuVC: MenuViewController = self.parent as? MenuViewController else { return }
+        menuVC.hideMenu()
+        
         let row = rows[indexPath.row]
+        
+        if case .home = row {
+        }
+        else {
+            let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController")
+            let navCont = UINavigationController(rootViewController: vc!)
+            present(navCont, animated: true, completion: nil)
+        }
+        
         switch row {
         case .home: homeAction()
         case .documents: documentsAction()

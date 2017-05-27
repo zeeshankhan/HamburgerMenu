@@ -16,6 +16,7 @@
 		B33E89D91ED67BA600E5A503 /* HamburgerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89D81ED67BA600E5A503 /* HamburgerCell.swift */; };
 		B33E89E31ED7D83500E5A503 /* HamburgerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E89E21ED7D83500E5A503 /* HamburgerViewModel.swift */; };
 		B33E8A101ED869E500E5A503 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E8A0F1ED869E500E5A503 /* MenuViewController.swift */; };
+		B34118501ED91A7500512902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B341184F1ED91A7500512902 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B33E89D81ED67BA600E5A503 /* HamburgerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerCell.swift; sourceTree = "<group>"; };
 		B33E89E21ED7D83500E5A503 /* HamburgerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewModel.swift; sourceTree = "<group>"; };
 		B33E8A0F1ED869E500E5A503 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B341184F1ED91A7500512902 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				B33E89D81ED67BA600E5A503 /* HamburgerCell.swift */,
 				B33E89D51ED67B8400E5A503 /* HamburgerLayer.swift */,
 				B33E89E21ED7D83500E5A503 /* HamburgerViewModel.swift */,
+				B341184F1ED91A7500512902 /* ViewController.swift */,
 				B33E89A91ED67A3B00E5A503 /* Main.storyboard */,
 				B33E89AC1ED67A3B00E5A503 /* Assets.xcassets */,
 				B33E89AE1ED67A3B00E5A503 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				B33E8A101ED869E500E5A503 /* MenuViewController.swift in Sources */,
 				B33E89D91ED67BA600E5A503 /* HamburgerCell.swift in Sources */,
 				B33E89D61ED67B8400E5A503 /* HamburgerLayer.swift in Sources */,
+				B34118501ED91A7500512902 /* ViewController.swift in Sources */,
 				B33E89E31ED7D83500E5A503 /* HamburgerViewModel.swift in Sources */,
 				B33E89A61ED67A3B00E5A503 /* AppDelegate.swift in Sources */,
 			);
